@@ -2,11 +2,7 @@ import { useEffect, useRef } from "react";
 import type { FC } from "react";
 import { gsap } from "gsap";
 import Overlay from "./components/Overlay";
-
-interface GridMotionProps {
-  items?: string[];
-  gradientColor?: string;
-}
+import type { GridMotionProps } from "./types";
 
 const GridMotion: FC<GridMotionProps> = ({
   items = [],

@@ -1,13 +1,5 @@
 import React from "react";
-
-export type ExperienceCardProps = {
-  jobTitle: string;
-  company: string;
-  period: { from: string; to: string };
-  description: string;
-  imageUrl: string;
-  align?: "left" | "right";
-};
+import type { ExperienceCardProps } from "./types";
 
 const ExperienceCard: React.FC<ExperienceCardProps> = ({
   jobTitle,

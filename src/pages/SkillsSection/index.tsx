@@ -45,7 +45,6 @@ const SkillsSection = () => {
     <div className="flex flex-col items-center min-h-screen w-full bg-gray-900 px-4 py-12 gap-12">
       <h2 className="text-3xl font-bold text-white mb-10 tracking-wide text-center">SKILLS</h2>
       <div className="w-full max-w-5xl flex flex-col gap-16">
-        {/* Technical Skills */}
         <div>
           <h3 className="text-2xl font-semibold mb-6 text-white">Technical Skills</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -64,7 +63,6 @@ const SkillsSection = () => {
           </div>
         </div>
 
-        {/* Interpersonal Skills */}
         <div className="flex flex-col items-start">
           <h3 className="text-2xl font-semibold mb-6 text-white">Interpersonal Skills</h3>
           <div className="flex flex-wrap gap-2 justify-start">
@@ -76,7 +74,6 @@ const SkillsSection = () => {
           </div>
         </div>
 
-        {/* Language Proficiency */}
         <div>
           <h3 className="text-2xl font-semibold mb-6 text-white">Language Proficiency</h3>
           <div className="flex flex-col md:flex-row gap-4">

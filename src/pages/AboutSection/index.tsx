@@ -1,5 +1,6 @@
 import ProfileCard from "../../components/ProfileCard"
 import ProfileImage from "../../assets/images/profile.png"
+
 const AboutSection = () => {
     return (
         <div className="flex flex-col md:flex-row justify-center items-center min-h-screen bg-gray-900 px-4 py-8 gap-8">

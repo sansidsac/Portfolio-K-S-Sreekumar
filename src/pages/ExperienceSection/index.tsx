@@ -1,7 +1,6 @@
 import navicaterLogo from "../../assets/images/navicater.jpeg";
 import ExperienceCard from "../../components/ExperienceCard";
 
-
 const workExperiences = [
   {
     jobTitle: "Software Engineer Intern",
