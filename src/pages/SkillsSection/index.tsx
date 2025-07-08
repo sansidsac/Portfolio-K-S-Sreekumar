@@ -52,7 +52,7 @@ const SkillsSection = () => {
               <div key={group.group} className="flex flex-col items-start">
                 <h4 className="text-lg font-bold text-gray-200 mb-2">{group.group}</h4>
                 <div className="flex flex-wrap gap-2 justify-start">
-                  {group.skills.map((skill, idx) => (
+                  {group.skills.map((skill) => (
                     <GradientText key={skill} className="text-xs px-3 py-1 rounded-full font-medium shadow-sm border border-gray-700 bg-gray-800">
                       {skill}
                     </GradientText>
