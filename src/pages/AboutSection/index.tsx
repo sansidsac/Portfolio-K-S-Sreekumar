@@ -1,11 +1,10 @@
 import ProfileCard from "../../components/ProfileCard"
 import ProfileImage from "../../assets/images/profile.png"
-
 const AboutSection = () => {
     return (
         <div className="flex flex-col md:flex-row justify-center items-center min-h-screen bg-gray-900 px-4 py-8 gap-8">
             <div className="flex items-center justify-center w-full md:w-auto">
-                <ProfileCard avatarUrl={ProfileImage} name="K S Sreekumar" title="4x Hackathon Winner | 3x Ideathon Winner"/>
+                <ProfileCard avatarUrl={ProfileImage} name="K S Sreekumar" title="4x Hackathon Winner | 3x Ideathon Winner" />
             </div>
             <div className="w-full md:w-1/2 flex flex-col items-start justify-center mt-8 md:mt-0 md:ml-8">
                 <h2 className="text-3xl font-bold text-white mb-4 tracking-wide">ABOUT ME</h2>

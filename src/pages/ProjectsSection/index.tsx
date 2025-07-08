@@ -1,6 +1,10 @@
 import ProjectCard from "../../components/ProjectCard"
 import prj1 from "../../assets/images/prj1.png"
 import prj2 from "../../assets/images/prj2.png"
+import prj4 from "../../assets/images/prj4.png"
+import prj5 from "../../assets/images/prj5.png"
+import prj6 from "../../assets/images/prj6.png"
+
 
 const projects = [
   {
@@ -16,36 +20,40 @@ const projects = [
     image: prj2,
     description: "Interactive case-mapping platform that enables real-time collaboration, secure evidence handling, and structured investigation flow to reduce delays and enhance clarity in criminal case resolution.",
     githubUrl: "https://github.com/rolansy/CrimeMap",
-    // websiteUrl: "",
+    websiteUrl: "https://crime-map-one.vercel.app/",
     toolsUsed: ["React", "Reactflow", "Node.js", "Tailwind CSS", "Python", "JavaScript"],
   },
   {
-    title: "Task Manager",
-    image: "/assets/images/project3.jpg",
-    description: "A productivity tool to manage daily tasks, built with Fastify, MongoDB, and a responsive React frontend.",
-    githubUrl: "https://github.com/user/taskmanager",
-    websiteUrl: "https://taskmanager.com",
+    title: "LEWS: Landslide Early Warning System",
+    image: "https://github.com/sansidsac/LEWS-Landslide_Early_Warning_System/blob/main/frontend/src/assets/sample.png?raw=true",
+    description: "A system designed to monitor and predict landslides using real-time data and machine learning algorithms.",
+    githubUrl: "https://github.com/sansidsac/LEWS-Landslide_Early_Warning_System",
+    // websiteUrl: "",
+    toolsUsed: ["JupyterNotebook", "Google Colab", "Google Earth Engine", "React", "JavaScript"],
   },
   {
-    title: "E-commerce Platform",
-    image: "/assets/images/project4.jpg",
-    description: "A scalable e-commerce platform with secure payments, product search, and user authentication.",
-    githubUrl: "https://github.com/user/ecommerce",
-    websiteUrl: "https://ecommerce.com",
+    title: "The Tongue Twisters",
+    image: prj4,
+    description: "Interactive platform that helps users improve pronunciation and speech clarity through AI-graded tongue twister practice, community contributions, and a user-friendly experience.",
+    githubUrl: "https://github.com/sansidsac/the-tongue-twisters",
+    // websiteUrl: "",
+    toolsUsed: ["React", "Node.js", "Express", "MongoDB", "OpenAI", "Axios", "Tailwind CSS", "JavaScript"],
   },
   {
-    title: "Blog Engine",
-    image: "/assets/images/project5.jpg",
-    description: "A markdown-based blog engine with live preview, built using Express.js and React.",
-    githubUrl: "https://github.com/user/blogengine",
-    websiteUrl: "https://blogengine.com",
+    title: "Tracewise: Test Case Management",
+    image: prj5,
+    description: "AI-powered test case traceability and management system that automates test evolution, prioritization, and visualization to ensure efficient, accurate, and collaborative software testing.",
+    githubUrl: "https://github.com/sansidsac/Tracewise-Test_Case_Management",
+    // websiteUrl: "",
+    toolsUsed: ["Flask", "TypeScript", "React", "Python", "GPT-4", "Tailwind CSS"]
   },
   {
-    title: "Weather Dashboard",
-    image: "/assets/images/project6.jpg",
-    description: "A weather dashboard that fetches real-time data from public APIs and displays it with beautiful charts.",
-    githubUrl: "https://github.com/user/weatherdashboard",
-    websiteUrl: "https://weatherdashboard.com",
+    title: "Metroflow: Metro Origin-Destination Prediction",
+    image: prj6,
+    description: "Origin-destination prediction system that leverages AFC data and machine learning to simulate passenger flow across expanding metro networks, enabling accurate forecasting and efficient urban transit planning.",
+    githubUrl: "https://github.com/sansidsac/metro_dashboard",
+    // websiteUrl: " ",
+    toolsUsed: ["XGBoost","Multinomial Logit Model","Python", "Flask", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn"],
   },
 ];
 

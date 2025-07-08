@@ -1,7 +1,6 @@
 import AboutSection from "./pages/AboutSection"
-import ExperienceSection from "./pages/ExperienceSection"
+import ContentSection from "./pages/ContentSection"
 import HeroSection from "./pages/HeroSection"
-import ProjectsSection from "./pages/ProjectsSection"
 
 const App = () => {
 
@@ -9,8 +8,7 @@ const App = () => {
     <>
       <HeroSection />
       <AboutSection />
-      <ProjectsSection />
-      <ExperienceSection />
+      <ContentSection />
     </>
   )
 }
