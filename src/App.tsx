@@ -1,4 +1,5 @@
 import AboutSection from "./pages/AboutSection"
+import ExperienceSection from "./pages/ExperienceSection"
 import HeroSection from "./pages/HeroSection"
 import ProjectsSection from "./pages/ProjectsSection"
 
@@ -9,6 +10,7 @@ const App = () => {
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
+      <ExperienceSection />
     </>
   )
 }
